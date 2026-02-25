@@ -7,12 +7,13 @@ import Portfolio from './pages/Portfolio';
 import Team from './pages/Team';
 import Blog from './pages/Blog';
 import Contact from './pages/Contact';
-
+import ScrollToTop from './components/ScrollToTop'
 // other imports...
 
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <div className="flex flex-col min-h-screen bg-slate-50">
         <Header />
         
